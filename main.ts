@@ -165,3 +165,80 @@ let arrow_1 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.arrow)
 arrow_1.setPosition(141, 57)
+animation.runImageAnimation(
+arrow_1,
+[img`
+    f f f f . . . . . . . . . . . . 
+    f b b b f f . . . . . . . . . . 
+    . f b b b b f f . . . . . . . . 
+    . . f b b b b b f f . . . . . . 
+    . . f b b b b b b b f f . . . . 
+    . . . f b b b b b b b b f f f . 
+    . . . f b b b b b b b b b b b f 
+    . . . f b b b b b b b b f f f . 
+    . . f b b b b b b b f f . . . . 
+    . . f b b b b b f f . . . . . . 
+    . f b b b b f f . . . . . . . . 
+    f b b b f f . . . . . . . . . . 
+    f f f f . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    `,img`
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    f f f f . . . . . . . . . . . . 
+    f b b b f f . . . . . . . . . . 
+    . f b b b b f f . . . . . . . . 
+    . . f b b b b b f f . . . . . . 
+    . . f b b b b b b b f f . . . . 
+    . . . f b b b b b b b b f f f . 
+    . . . f b b b b b b b b b b b f 
+    . . . f b b b b b b b b f f f . 
+    . . f b b b b b b b f f . . . . 
+    . . f b b b b b f f . . . . . . 
+    . f b b b b f f . . . . . . . . 
+    f b b b f f . . . . . . . . . . 
+    f f f f . . . . . . . . . . . . 
+    `,img`
+    f f f f . . . . . . . . . . . . 
+    f b b b f f . . . . . . . . . . 
+    . f b b b b f f . . . . . . . . 
+    . . f b b b b b f f . . . . . . 
+    . . f b b b b b b b f f . . . . 
+    . . . f b b b b b b b b f f f . 
+    . . . f b b b b b b b b b b b f 
+    . . . f b b b b b b b b f f f . 
+    . . f b b b b b b b f f . . . . 
+    . . f b b b b b f f . . . . . . 
+    . f b b b b f f . . . . . . . . 
+    f b b b f f . . . . . . . . . . 
+    f f f f . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    `,img`
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    f f f f . . . . . . . . . . . . 
+    f b b b f f . . . . . . . . . . 
+    . f b b b b f f . . . . . . . . 
+    . . f b b b b b f f . . . . . . 
+    . . f b b b b b b b f f . . . . 
+    . . . f b b b b b b b b f f f . 
+    . . . f b b b b b b b b b b b f 
+    . . . f b b b b b b b b f f f . 
+    . . f b b b b b b b f f . . . . 
+    . . f b b b b b f f . . . . . . 
+    . f b b b b f f . . . . . . . . 
+    f b b b f f . . . . . . . . . . 
+    f f f f . . . . . . . . . . . . 
+    `],
+500,
+true
+)
+forever(function () {
+	
+})
