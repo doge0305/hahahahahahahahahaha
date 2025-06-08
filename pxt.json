@@ -5,7 +5,11 @@
         "device": "*",
         "radio-broadcast": "*",
         "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
-        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "Makey Makey Keymappings": "github:joylabz/makeymakey-makecode-arcade-extension#1.0.3",
+        "controller": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0"
     },
     "files": [
         "main.blocks",
